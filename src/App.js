@@ -1,9 +1,12 @@
 import './App.css';
 
+import Header from './header/Header';
+
 function App() {
   return (
-    <div className="app">
-      <h1>This is a Amazon cloan </h1>
+    <div>
+       {/* Header Component */}
+       <Header />
     </div>
   );
 }
