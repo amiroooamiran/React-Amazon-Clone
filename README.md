@@ -44,7 +44,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 this views for the <b>components</b> in the Website
 
 #### Header Component :
-In this component You Can see [ logo, Navigation bar, Search Box & some Buttons
+In this component You Can see [ logo, Navigation bar, Search Box & some Buttons ]
 
 
 ![Web capture_23-1-2023_221020_localhost](https://user-images.githubusercontent.com/93470832/214129097-bd82bff6-cad7-4fef-9848-6e982794da7b.jpeg)
