@@ -1,0 +1,262 @@
+/* fonts Links of the https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* colors palet in this project:
+        #262625 hot chaclet
+        #55473a normal chacler
+        #525657 hot gray
+        #434c4b normal gray
+        #959d99 calm gray
+ */
+
+ /* header container */
+.header{
+    display: flex;
+    background-color: #f8f6f2;
+    height: 100px;
+    border-bottom: solid 0.5px #423d394f;
+}
+
+/* logo of the Header */
+.logo-header{
+    position: relative;
+    top: 50%;
+    left: 2%;
+}
+.logo-header img{
+    width: 100px;
+}
+
+/* header ithem off the website */
+.header-container{
+    display: flex;
+    position: relative;
+    top: 59%;
+    left: 5%;
+}
+
+.header-container .header-ithem button{
+    margin-left: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    text-underline-position: under;
+}
+
+/* search bar of the website */
+.header-search-console{
+    position: relative;
+    top: 12%;
+    left: 10%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header-search-console input{
+    width: 60%;
+    height: 20px;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-family: 'Sofia Sans', sans-serif;
+    border: solid 2px #55473a;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header-search-console i{
+    padding: 7px;
+    margin-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 20px !important;
+    background-color:#55473a ;
+    color: #f8f6f2;
+}
+
+/* header option */
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 48px;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #55473a;
+}
+
+.header_optionOne{
+    font-size: 10px;
+}
+
+.header_optionTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+/* header basket container */
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: #55473a;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header_optionBasket span i{
+    font-size: 1.5rem;
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*=================================
+ this section for product container */
+
+.Product-container{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Arial Black;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    height: 180px;
+    padding: 0px;
+    z-index: 10;
+    top: 100px;
+    left: 4%;
+    background-color: rgba(0, 0, 0, 0.24);
+    animation: productcontainer 0.5s;
+    backdrop-filter: blur(2px);
+    display: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* -webkit-clip-path: polygon(2% 14%, 0 0, 100% 0, 98% 9%, 98% 85%, 98% 100%, 2% 100%, 2% 85%);
+            clip-path: polygon(2% 14%, 0 0, 100% 0, 98% 12%, 98% 85%, 98% 100%, 2% 100%, 2% 85%); */
+}
+
+.coffe{
+    width: 50%;
+}
+
+.coffe .Product-Lister{
+    background-color: #ffffff73;
+}
+
+.coffe .Product-Lister:hover{
+    background-color: #FFFFFF;
+}
+
+.coffe .Product-Lister h4{
+    color: #55473a;
+}
+
+@keyframes productcontainer{
+    0%{
+        top: 0;
+        z-index: -1;
+    }
+    50%{
+        top: 110px;
+        z-index: -1;
+    }
+    100%{
+        top:100px;
+        z-index: 1;
+    }
+}
+
+.Product-Lister{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+    z-index: 1;
+    width: 160px;
+    height: 140px;
+
+    margin-top: 10px;
+
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 0.6s;
+    background-color:#434c4baf;
+    padding: 5px;
+}
+
+.Product-Lister:nth-child(1):hover{
+    margin-top: 50px;
+}
+.Product-Lister:nth-child(2):hover{
+    margin-top: 50px;
+}
+.Product-Lister:nth-child(3):hover{
+    margin-top: 50px;
+}
+.Product-Lister:nth-child(4):hover{
+    margin-top: 50px;
+}
+.Product-Lister h4{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 100rem;
+    font-family: 'Dosis', sans-serif;
+}
+.Product-Lister p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 100rem;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.Product-Lister:hover{
+    background-color:#434c4b;
+}
+
+.Product-Lister img{
+    width: 80px;
+}
+
+.Product-Lister i{
+    font-size: 3rem;
+}
+
+/*=================================
+ this Container For ProductS Result */
+
+.Product-Section{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 55%;
+    animation: productresult 0.8s;
+    display: none;
+}
+
+.Product-Section p{
+    position: relative;
+    top: 45%;
+    left: 5%;
+}
+@keyframes productresult {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 55%;
+    }
+}
