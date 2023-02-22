@@ -1,0 +1,65 @@
+/* fonts Links of the https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+/* 
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Yellowtail', cursive;
+
+*/
+
+.home{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.home_row{
+    align-items: center;
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.home__image{
+    width: 100%;
+    z-index: -30;
+    margin-bottom: -120px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+/* this part for productType section  */
+.productType{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    background-color: #55473a;
+    height: 120px;
+    background-image: url(../Image/BrantType.png);
+    background-size: 100% 100%;
+}
+
+/* this part for ProductCards Section */
+.product-card-h2{
+    text-align: center;
+    color: #55473a;
+    margin-top: 90px;
+    margin-bottom: -40px;
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+}
+.ProductCards{
+    margin: 60px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
