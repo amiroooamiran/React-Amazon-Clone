@@ -1,0 +1,245 @@
+/* fonts Links of the https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+/* 
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Yellowtail', cursive;
+
+*/
+
+/* colors palet in this project:
+        #262625 hot chaclet
+        #55473a normal chacler
+        #525657 hot gray
+        #434c4b normal gray
+        #959d99 calm gray
+ */
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    background-color: #5256572c;
+}
+
+.product_raiting{
+    display: flex;
+}
+
+.product button{
+    width: 150px;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    background-color: #262625;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.product button i{
+    float: right;
+}
+
+.product > img{
+    border-radius: 10px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.newproduct{
+    font-family: 'Pacifico', cursive;
+    color: #55473a;
+}
+
+
+/* THIS SECTION FROM [ PRODUCTtYPE.JS ] */
+.productType-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+}
+
+.BransType{
+    text-align: center;
+    margin: 6%;
+    background-color: #efdfc4;
+    padding: 10px;
+    width: 120px;
+    font-size: 13px;
+    font-weight: 800;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* THIS SECTION FROM [ PRODUCTcARDS.JS ] */
+
+.productCard-container{
+    background-color: #262625;
+    padding: 12px;
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+.productCard-container:hover{
+    border-radius: 10px;
+}
+
+.productCard-container .imagCard{
+    width: 100%;
+    background-color: #efdfc4;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.productCard-container .imagCard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.cards-Discription{
+    margin: 10px;
+}
+
+.cards-Discription h5{
+    color: #efdfc4;
+    font-size: 18px;
+}
+
+.cards-Discription a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* THIS SECTION FOR DESIGHN PRODUCT SLIDER */
+.slider-container{
+    margin-bottom: 20px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.slider-container h3{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #55473a;
+}
+
+.sliders{
+    padding: 10px;
+    color: #efdfc4;
+    border-radius: 5px;
+}
+
+
+/* --------------- */
+
+.cards-slider{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    transition: 1s ;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+    background-color: #55473a;
+}
+.cards-slider:hover{
+    animation: 1s slidedercard;
+}
+
+@keyframes slidedercard {
+    0%{
+        top: -15px;
+    }
+    50%{
+        top: -10;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+.image-cards{
+    width: 100px;
+    margin: 0 auto;
+}
+.image-cards img{
+    width: 100px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.button-sell button{
+    margin-top: 20px;
+    font-family: 'Yellowtail', cursive;
+    padding: 2px;
+    width: 90%;
+    font-size: 20px;
+    background-color: #efdfc4;
+    color: #55473a;
+    border: none;
+    border-radius: 5px;
+}
+
+.product-card-title{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+}
+
+.card-discription{
+    margin-top: 10px;
+    margin: 7px;
+    text-align: left;
+}
+
+.card-price{
+    text-align: left;
+    margin: 7px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.card-price span{
+    font-weight: 100;
+    color: #fff;
+}
+.button-sell hr{
+    margin: 10px;
+    
+}
+
+.button-sell button span{
+    margin-left: 10px;
+}
