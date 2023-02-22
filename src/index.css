@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -8,6 +9,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fffdfa;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #262625;   
+  border-radius: 5px;
+   /* color of the scroll thumb */ 
 }
 
 code {
