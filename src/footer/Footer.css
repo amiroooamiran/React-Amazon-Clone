@@ -1,0 +1,65 @@
+/* fonts Links of the https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+/* 
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Yellowtail', cursive;
+
+*/
+
+/* colors palet in this project:
+        #262625 hot chaclet
+        #55473a normal chacler
+        #525657 hot gray
+        #434c4b normal gray
+        #959d99 calm gray
+ */
+
+.Footer-container{
+    background-color: #55473a ;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+table, th, td {
+    text-align: left;
+    padding: 10px;
+}
+th{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #262625;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.479);
+}
+
+td{
+    color: aliceblue;
+}
+
+td a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+td:hover{
+    background-color: #262625;
+}
+
+td i{
+    width: 16px;
+    margin-right: 15px;
+}
+
+td img{
+    width: 18px;
+    margin-right: 15px;
+}
