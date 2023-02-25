@@ -1,0 +1,101 @@
+/* fonts Links of the https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* 
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Yellowtail', cursive;
+
+*/
+
+/* colors palet in this project:
+        #262625 hot chaclet
+        #55473a normal chacler
+        #525657 hot gray
+        #434c4b normal gray
+        #959d99 calm gray
+ */
+.LoginPage{
+    background-color: #55473a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: #959d9941 ;
+}
+
+.login_container h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+
+.login_container form h5{
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.login_container form input{
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.login_container p {
+    margin: 15px;
+    font-size: 12px;
+
+}
+
+.login_container form hr{
+    margin-top: 20px;
+}
+.login_container form .login-singinerbtn{
+    background-color: #262625;
+    width: 100%;
+    color: #fff;
+    font-size: large;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.login_rigisterbtn{
+    background-color:aliceblue;
+    width: 100%;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
